@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+.animate-fade {
+  animation: fade 1s forwards;
+}
+
+.particle {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px; /* Full circle */
+}
