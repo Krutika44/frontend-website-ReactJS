@@ -1,12 +1,15 @@
 import React from "react";
 import MotionArtEffect from "../images/MotionArtEffect-logo.png";
+import Home2 from "./Home2";
+import Home3 from "./Home3";
+import Home4 from "./Home4";
 
 const Home = () => {
   return (
     <div className="m-80px">
       <div className="grid grid-cols-3 gap-[30.75rem]">
         <img className="col-start-1 col-span-2 h-14" src={MotionArtEffect} />
-        <button className="bg-white w-56 h-16 text-xl font-outfit p-2 border rounded-md col-start-3 col-span-1">
+        <button className="bg-white w-56 h-16 text-xl font-outfit p-2 border rounded-md col-start-3 col-span-1 hover:bg-[#100c1c] hover:text-white">
           Purchase Now
         </button>
       </div>
@@ -40,6 +43,9 @@ const Home = () => {
           <p className="text-gray-400 text-2xl font-normal font-outfit mt-10">Unleash the power of creativity with Motion Art for Elementor - your ultimate solution <br/>for seamlessly integrating captivating animations into your website.</p>
         </div>
       </div>
+      <Home2 />
+      <Home3 />
+      <Home4 />
     </div>
   );
 };
