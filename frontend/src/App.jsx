@@ -34,8 +34,8 @@ function App() {
           position: "fixed",
           top: 0,
           left: 0,
-          width: "100vw",
-          height: "100vh",
+          width: "100%",
+          height: "100%",
           opacity: 50,
           zIndex: -1,
         }}
@@ -45,6 +45,7 @@ function App() {
           position: "absolute",
           backgroundColor: "rgba(13, 5, 31, 0.9)",
           pointerEvents: "none",
+          width:"100%"
         }}
       >
         <Home />

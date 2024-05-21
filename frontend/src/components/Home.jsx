@@ -1,5 +1,6 @@
 import React from "react";
 import MotionArtEffect from "../images/MotionArtEffect-logo.png";
+import Home2 from "./Home2";
 
 const Home = () => {
   return (
