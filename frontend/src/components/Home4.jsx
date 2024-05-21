@@ -5,6 +5,7 @@ import browsers from "../images/motionarteffect-img8.png";
 
 const Home4 = () => {
   return (
+    <div className="m-80px">
     <div className="mt-40">
       <div>
         <p className="text-gray-200 text-5xl flex justify-center font-sora font-medium">
@@ -54,6 +55,7 @@ const Home4 = () => {
           <img src={browsers} className="mt-9 h-[60px]" />
         </div>
       </div>
+    </div>
     </div>
   );
 };

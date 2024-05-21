@@ -1,9 +1,8 @@
-// src/components/Particle.js
 import React, { useEffect } from 'react';
 
 const Particle = ({ x, y, color }) => {
   useEffect(() => {
-    const particle = document.getElementById(`particle-${x}-${y}-${color}`);
+    const particle = document.getElementById(`particle-${x}-${y}`);
     if (particle) {
       particle.style.left = `${x}px`;
       particle.style.top = `${y}px`;
@@ -12,7 +11,7 @@ const Particle = ({ x, y, color }) => {
     }
   }, [x, y, color]);
 
-  return <div id={`particle-${x}-${y}-${color}`} className="particle w-4 h-4 rounded-full absolute pointer-events-none"></div>;
+  return <div id={`particle-${x}-${y}`} className="particle w-4 h-4 rounded-full absolute pointer-events-none"></div>;
 };
 
 export default Particle;

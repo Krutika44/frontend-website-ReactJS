@@ -5,6 +5,7 @@ import img3 from "../images/motionarteffect-img7.png";
 
 const Home5 = () => {
   return (
+    <div className="m-80px">
     <div className="mt-36">
       <div>
         <p className="text-gray-200 text-5xl flex justify-center font-sora font-medium">
@@ -67,6 +68,7 @@ const Home5 = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

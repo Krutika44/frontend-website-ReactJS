@@ -3,6 +3,7 @@ import stick from "../images/motionarteffect-img5.png";
 
 const Home3 = () => {
   return (
+    <div className="m-80px">
     <div className="flex justify-normal">
     <div className="justify-start">
       <div className="text-gray-200 font-sora text-5xl mt-[150px] font-medium">
@@ -39,6 +40,7 @@ const Home3 = () => {
       <div className="justify-end mt-40 ml-72">
         <img src={stick} />
       </div>
+    </div>
     </div>
   );
 };

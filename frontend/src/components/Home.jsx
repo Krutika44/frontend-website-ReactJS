@@ -29,7 +29,7 @@ const Home = () => {
             Attract Your Visitors <br />
           </p>
           <p className="text-gray-200 font-semibold text-7xl mt-6">
-            {" "}
+            
             Attention With Colorful <br />
           </p>
           <div className="flex items-center">
@@ -44,10 +44,7 @@ const Home = () => {
           <p className="text-gray-400 text-2xl font-normal font-outfit mt-10">Unleash the power of creativity with Motion Art for Elementor - your ultimate solution <br/>for seamlessly integrating captivating animations into your website.</p>
         </div>
       </div>
-      <Home2 />
-      <Home3 />
-      <Home4 />
-      <Home5 />
+      
     </div>
   );
 };

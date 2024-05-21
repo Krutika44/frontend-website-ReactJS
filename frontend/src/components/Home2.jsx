@@ -6,7 +6,7 @@ import stars from "../images/motionarteffect-img4.png";
 
 const Home2 = () => {
   return (
-    <div>
+    <div className="m-80px">
       <div className="flex justify-center">
         <p className="text-gray-300 text-3xl font-normal mt-28 font-outfit">
           Trusted by thousands of users around the world
