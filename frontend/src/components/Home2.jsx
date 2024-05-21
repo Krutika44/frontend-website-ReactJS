@@ -20,10 +20,7 @@ const Home2 = () => {
               src={motionarteffectimg2}
             />
             <div className="col-start-1 col-span-1">
-              <img
-                className="mt-6 ml-4 h-auto w-48"
-                src={stars}
-              />
+              <img className="mt-6 ml-4 h-auto w-48" src={stars} />
               <div className="mt-6 ml-4 font-sora text-lg text-gray-400 font-medium w-full">
                 <b>4.5</b> Score, 9 Reviews
               </div>
@@ -35,10 +32,7 @@ const Home2 = () => {
           <div className="grid grid-cols-1 gap-0">
             <img className="col-end-1 h-28" src={motionarteffectimg1} />
             <div className="col-start-1">
-              <img
-                className="mt-6 ml-4 h-auto w-48"
-                src={stars}
-              />
+              <img className="mt-6 ml-4 h-auto w-48" src={stars} />
               <div className="mt-6 ml-4 font-sora text-lg text-gray-400 font-medium w-full">
                 <b>4.5</b> Score, 9 Reviews
               </div>
@@ -53,10 +47,7 @@ const Home2 = () => {
               src={motionarteffectimg3}
             />
             <div className="col-start-1 col-span-1">
-              <img
-                className="mt-6 ml-4 h-auto w-48"
-                src={stars}
-              />
+              <img className="mt-6 ml-4 h-auto w-48" src={stars} />
               <div className="mt-6 ml-4 font-sora text-lg text-gray-400 font-medium w-full">
                 <b>4.5</b> Score, 9 Reviews
               </div>

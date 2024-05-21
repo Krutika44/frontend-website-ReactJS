@@ -1,9 +1,5 @@
 import React from "react";
 import MotionArtEffect from "../images/MotionArtEffect-logo.png";
-import Home2 from "./Home2";
-import Home3 from "./Home3";
-import Home4 from "./Home4";
-import Home5 from "./Home5";
 
 const Home = () => {
   return (
@@ -29,11 +25,12 @@ const Home = () => {
             Attract Your Visitors <br />
           </p>
           <p className="text-gray-200 font-semibold text-7xl mt-6">
-            
             Attention With Colorful <br />
           </p>
           <div className="flex items-center">
-          <p className="mt-6 text-[#f87516] text-7xl font-medium font-sora">Mo</p>
+            <p className="mt-6 text-[#f87516] text-7xl font-medium font-sora">
+              Mo
+            </p>
             <p className="mt-6 bg-gradient-to-r from-[#f87516] via-[#a43f93] to-[#5405ff] inline-block text-transparent bg-clip-text text-7xl font-medium font-sora">
               tion
             </p>
@@ -41,10 +38,13 @@ const Home = () => {
               Art Effect
             </p>
           </div>
-          <p className="text-gray-400 text-2xl font-normal font-outfit mt-10">Unleash the power of creativity with Motion Art for Elementor - your ultimate solution <br/>for seamlessly integrating captivating animations into your website.</p>
+          <p className="text-gray-400 text-2xl font-normal font-outfit mt-10">
+            Unleash the power of creativity with Motion Art for Elementor - your
+            ultimate solution <br />
+            for seamlessly integrating captivating animations into your website.
+          </p>
         </div>
       </div>
-      
     </div>
   );
 };
